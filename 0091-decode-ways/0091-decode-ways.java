@@ -16,7 +16,7 @@ class Solution {
         }
         int ans=0;
         int op1=s.charAt(i)-'0',op2=0;
-        if(i<=s.length()-2)
+        if(i<s.length()-1)
         {
             op2=op1*10+s.charAt(i+1)-'0';
         }
